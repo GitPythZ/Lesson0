@@ -12,6 +12,9 @@ my_dict.update({'Vlad' : 1998,
 print(my_dict)
 del my_dict['Me']
 print(my_dict)
+popped_dict = my_dict.pop('Vlad')
+print(popped_dict) #Вывел значение ключа
+
 # Работа с множествами
 my_set = {1,2,3,4,0, 'set', True, False, (5,6,7,8,9)}
 print(my_set)
